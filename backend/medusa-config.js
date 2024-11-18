@@ -26,6 +26,7 @@ const medusaConfig = {
     databaseLogging: true,
     redisUrl: REDIS_URL,
     workerMode: WORKER_MODE,
+    server_timeout: 300000, // 5 minutes
     http: {
       adminCors: ADMIN_CORS,
       authCors: AUTH_CORS,
